@@ -4,7 +4,8 @@
   "description": "An opinionated eslint plugin",
   "main": "dist/index.js",
   "scripts": {
-    "test": "exit 1"
+    "test": "exit 1",
+    "prepublishOnly": "esw build src/index.ts"
   },
   "repository": {
     "type": "git",
