@@ -19,7 +19,7 @@ module.exports = {
 }
 ```
 
-#### Only javascript rules
+#### Only JavaScript rules
 
 ```js
 module.exports = {
