@@ -19,6 +19,7 @@ const plugin: Plugin = {
      */
     recommended: {
       plugins: ['@lbwa'],
+      // order related
       extends: ['plugin:@lbwa/javascript', 'plugin:@lbwa/typescript']
     },
     typescript,
