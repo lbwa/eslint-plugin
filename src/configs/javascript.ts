@@ -16,11 +16,11 @@ export const config: Linter.Config = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:import/recommended',
     // include enable eslint-plugin-prettier,
     // see https://github.com/prettier/eslint-plugin-prettier#recommended-configuration
     // and https://github.com/prettier/eslint-plugin-prettier/blob/v3.3.1/eslint-plugin-prettier.js#L109-L117
-    'plugin:prettier/recommended',
-    'plugin:import/recommended'
+    'plugin:prettier/recommended'
   ],
   settings: {
     'import/resolver': {
