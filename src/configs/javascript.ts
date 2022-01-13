@@ -33,7 +33,6 @@ export const config: Linter.Config = {
     'import/order': 'error',
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
-    'import/namespace': 'off', // Performance issue. It make linting process slower than normal lint.
 
     'no-debugger': IS_PROD ? 'error' : 'warn',
     'no-console': IS_PROD ? 'error' : 'warn',

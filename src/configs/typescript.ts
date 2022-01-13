@@ -49,6 +49,7 @@ export const config: Linter.Config = {
       rules: {
         // see https://github.com/alexgorbatchev/eslint-import-resolver-typescript#configuration
         'import/no-unresolved': 'error',
+        'import/namespace': 'off', // Performance issue.
 
         // see https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
         '@typescript-eslint/explicit-module-boundary-types': 'off',
