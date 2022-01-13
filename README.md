@@ -35,6 +35,7 @@ Alternative to [recommended](#Recommended)
 ```js
 module.exports = {
   plugins: ['@lbw'],
+  // ensure orders
   extends: ['plugin:@lbwa/javascript', 'plugin:@lbwa/typescript']
 }
 ```

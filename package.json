@@ -4,8 +4,9 @@
   "description": "An opinionated eslint plugin",
   "main": "dist/index.js",
   "scripts": {
-    "test": "exit 1",
-    "prepublishOnly": "esw build src/index.ts"
+    "prepare": "husky install",
+    "build": "esw build src/index.ts",
+    "prepublishOnly": "pnpm build"
   },
   "repository": {
     "type": "git",
@@ -27,12 +28,15 @@
   },
   "homepage": "https://github.com/lbwa/eslint-plugin#readme",
   "devDependencies": {
+    "@lbwa/prettier-config": "^0.1.0",
     "@lbwa/tsconfig": "^1.1.0",
     "@types/eslint": "^8.2.2",
     "@types/node": "^17.0.8",
     "eslint": "^8.6.0",
     "eslint-plugin-jest": "^25.3.4",
     "esw": "^0.11.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
     "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   },
@@ -53,5 +57,11 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0"
+  },
+  "prettier": "@lbwa/prettier-config",
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,css,scss,less,md}": [
+      "prettier --write"
+    ]
   }
 }
