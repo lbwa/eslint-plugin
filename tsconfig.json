@@ -1,3 +1,6 @@
 {
-  "extends": "@lbwa/tsconfig"
+  "extends": "@lbwa/tsconfig",
+  "exclude": [
+    "dist"
+  ]
 }
