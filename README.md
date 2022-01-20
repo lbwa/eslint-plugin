@@ -14,7 +14,7 @@ pnpm i @lbwa/eslint-plugin eslint@^8.6.0 -D
 
 ```js
 module.exports = {
-  plugins: ['@lbw'],
+  plugins: ['@lbwa'],
   extends: ['plugin:@lbwa/recommended']
 }
 ```
@@ -23,7 +23,7 @@ module.exports = {
 
 ```js
 module.exports = {
-  plugins: ['@lbw'],
+  plugins: ['@lbwa'],
   extends: ['plugin:@lbwa/javascript']
 }
 ```
@@ -34,7 +34,7 @@ Alternative to [recommended](#Recommended)
 
 ```js
 module.exports = {
-  plugins: ['@lbw'],
+  plugins: ['@lbwa'],
   // ensure orders
   extends: ['plugin:@lbwa/javascript', 'plugin:@lbwa/typescript']
 }
