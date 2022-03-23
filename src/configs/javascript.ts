@@ -45,8 +45,7 @@ export const config: Linter.Config = {
         paths: [
           {
             name: 'lodash',
-            message:
-              'The default/named importation of lodash has been forbidden. Please use path importation or lodash-es instead.'
+            message: 'Please use `lodash/*` or `lodash-es` instead.'
           }
         ]
       }

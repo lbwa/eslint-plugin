@@ -126,6 +126,21 @@ export const config: Linter.Config = {
             selector: 'enumMember',
             format: ['PascalCase', 'UPPER_CASE']
           }
+        ],
+
+        // https://github.com/typescript-eslint/typescript-eslint/blob/v5.16.0/packages/eslint-plugin/docs/rules/no-restricted-imports.md
+        'no-restricted-imports': 'off',
+        '@typescript-eslint/no-restricted-imports': [
+          'error',
+          {
+            paths: [
+              {
+                name: 'lodash',
+                message: 'Please use `lodash/*` or `lodash-es` instead.',
+                allowTypeImports: true
+              }
+            ]
+          }
         ]
       }
     }
