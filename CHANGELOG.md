@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0](https://github.com/lbwa/eslint-plugin/compare/v0.1.0...v0.2.0) (2022-03-23)
+
+### Features
+
+- `no-restricted-imports` ignore type importation ([a6dca2d](https://github.com/lbwa/eslint-plugin/commit/a6dca2dbad834942489d56500ba51ec3d0c663ce))
+
 ## [0.1.0](https://github.com/lbwa/eslint-plugin/compare/v0.0.1...v0.1.0) (2022-01-13)
 
 ### Features
