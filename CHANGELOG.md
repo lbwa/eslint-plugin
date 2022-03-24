@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0](https://github.com/lbwa/eslint-plugin/compare/v0.2.0...v0.3.0) (2022-03-24)
+
+### Features
+
+- All unused parameters should has a leading underscore ([b4e1bdd](https://github.com/lbwa/eslint-plugin/commit/b4e1bdd79361e7a825c06431f9723f88f4ad8ed2))
+
 ## [0.2.0](https://github.com/lbwa/eslint-plugin/compare/v0.1.0...v0.2.0) (2022-03-23)
 
 ### Features
