@@ -130,6 +130,7 @@ export const config: Linter.Config = {
           {
             selector: 'parameter',
             modifiers: ['unused'],
+            format: ['camelCase'],
             leadingUnderscore: 'require'
           }
         ],
