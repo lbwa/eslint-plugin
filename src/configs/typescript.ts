@@ -125,6 +125,12 @@ export const config: Linter.Config = {
           {
             selector: 'enumMember',
             format: ['PascalCase', 'UPPER_CASE']
+          },
+          // All unused parameters should has a leading underscore
+          {
+            selector: 'parameter',
+            modifiers: ['unused'],
+            leadingUnderscore: 'require'
           }
         ],
 
