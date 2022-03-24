@@ -1,5 +1,11 @@
 # Changelog
 
+### [0.3.1](https://github.com/lbwa/eslint-plugin/compare/v0.3.0...v0.3.1) (2022-03-24)
+
+### Bug Fixes
+
+- add missing `format` ([3e9aa0d](https://github.com/lbwa/eslint-plugin/commit/3e9aa0dd6cfd4d7daccabfde7d0cd12e8609efc4))
+
 ## [0.3.0](https://github.com/lbwa/eslint-plugin/compare/v0.2.0...v0.3.0) (2022-03-24)
 
 ### Features
