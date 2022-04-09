@@ -20,7 +20,9 @@ export const config: Linter.Config = {
         // see https://github.com/typescript-eslint/typescript-eslint/blob/v4.22.0/packages/eslint-plugin/src/configs/recommended-requiring-type-checking.ts
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
         // see https://github.com/benmosher/eslint-plugin-import#typescript
-        'plugin:import/typescript'
+        'plugin:import/typescript',
+        // see https://github.com/prettier/eslint-config-prettier/issues/198#issuecomment-899262448
+        'plugin:prettier/recommended'
       ],
       // https://github.com/typescript-eslint/typescript-eslint/tree/v4.22.0/packages/parser
       parser: '@typescript-eslint/parser',
