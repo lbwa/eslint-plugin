@@ -1,5 +1,11 @@
 # Changelog
 
+### [0.3.2](https://github.com/lbwa/eslint-plugin/compare/v0.3.1...v0.3.2) (2022-04-09)
+
+### Bug Fixes
+
+- conflict between prettier and eslint ([1dee8b3](https://github.com/lbwa/eslint-plugin/commit/1dee8b382d583fa59b87155e4157258898ae84f0)), closes [/github.com/prettier/eslint-config-prettier/issues/198#issuecomment-899262448](https://github.com/lbwa//github.com/prettier/eslint-config-prettier/issues/198/issues/issuecomment-899262448) [/github.com/prettier/eslint-config-prettier/issues/198#issuecomment-899470351](https://github.com/lbwa//github.com/prettier/eslint-config-prettier/issues/198/issues/issuecomment-899470351)
+
 ### [0.3.1](https://github.com/lbwa/eslint-plugin/compare/v0.3.0...v0.3.1) (2022-03-24)
 
 ### Bug Fixes
