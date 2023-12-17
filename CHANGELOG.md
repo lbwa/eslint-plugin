@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/lbwa/eslint-plugin/compare/v0.3.2...v0.4.0) (2023-12-17)
+
+
+### Features
+
+* upgrade all dependencies to latest version ([#2](https://github.com/lbwa/eslint-plugin/issues/2)) ([085584a](https://github.com/lbwa/eslint-plugin/commit/085584a95230ed3ec94f557d602259144cd2fbfa))
+
 ### [0.3.2](https://github.com/lbwa/eslint-plugin/compare/v0.3.1...v0.3.2) (2022-04-09)
 
 ### Bug Fixes
