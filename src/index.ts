@@ -28,7 +28,7 @@ const plugin: Plugin = {
   }
 }
 
-module.exports = plugin
+export default plugin
 
 interface Plugin {
   /**
