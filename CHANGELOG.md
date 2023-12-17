@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/lbwa/eslint-plugin/compare/v0.4.1...v0.4.2) (2023-12-17)
+
+
+### Bug Fixes
+
+* replace module.export with `exports default` ([dfa13bf](https://github.com/lbwa/eslint-plugin/commit/dfa13bfb3cdfc0f282100e66cfd0ae1f17e2f246))
+
 ## [0.4.1](https://github.com/lbwa/eslint-plugin/compare/v0.4.0...v0.4.1) (2023-12-17)
 
 
