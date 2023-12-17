@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/lbwa/eslint-plugin/compare/v0.4.0...v0.4.1) (2023-12-17)
+
+
+### Bug Fixes
+
+* pprettier(peerDep) should be pin ^3.1.1 ([49ef31d](https://github.com/lbwa/eslint-plugin/commit/49ef31da2c77fd7b3fac92610cf6feba37f48f1b))
+
 ## [0.4.0](https://github.com/lbwa/eslint-plugin/compare/v0.3.2...v0.4.0) (2023-12-17)
 
 
